@@ -1,0 +1,24 @@
+{
+    "os": "Linux-5.4.144+-x86_64-with-Ubuntu-18.04-bionic",
+    "python": "3.7.12",
+    "heartbeatAt": "2022-01-23T14:22:30.682430",
+    "startedAt": "2022-01-23T14:22:24.648916",
+    "docker": null,
+    "gpu": "Tesla K80",
+    "gpu_count": 1,
+    "cpu_count": 2,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "train.py",
+    "codePath": "train.py",
+    "git": {
+        "remote": "https://Rysh:@github.com/thinhnguyen112000/Classification-Malware-Image-Based.git",
+        "commit": "012c233ef3e82d29d7d9f2c96216db46140156b9"
+    },
+    "email": null,
+    "root": "/content/drive/MyDrive/Classification-Malware-Image-Based",
+    "host": "193e2ddfa22b",
+    "username": "root",
+    "executable": "/usr/bin/python3"
+}

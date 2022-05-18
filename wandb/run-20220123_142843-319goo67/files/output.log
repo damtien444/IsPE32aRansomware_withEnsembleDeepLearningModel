@@ -1,0 +1,208 @@
+Total parameters => 147322764
+Start generate image ...
+Found 1972 images belonging to 2 classes.
+Found 492 images belonging to 2 classes.
+train dataset: {'other_malware': 1040, 'ransomware': 932}
+val dataset: {'other_malware': 259, 'ransomware': 233}
+Train => 1972 Test => 492
+Numbers of class => 2
+******** Testing ********
+Test set: 	Loss: 0.7143, 	Acc: 49.41%
+******** Training ********
+Train Epoch: 1	Loss: 0.4998 	Acc: 77.23% 	
+******** Testing ********
+Test set: 	Loss: 0.3441, 	Acc: 95.70%
+******** Training ********
+Train Epoch: 2	Loss: 0.3789 	Acc: 90.01% 	
+******** Testing ********
+Test set: 	Loss: 0.3389, 	Acc: 91.28%
+******** Training ********
+Train Epoch: 3	Loss: 0.3191 	Acc: 95.72% 	
+******** Testing ********
+Test set: 	Loss: 0.2578, 	Acc: 96.88%
+******** Training ********
+Train Epoch: 4	Loss: 0.2696 	Acc: 98.14% 	
+******** Testing ********
+Test set: 	Loss: 0.2537, 	Acc: 97.46%
+******** Training ********
+Train Epoch: 5	Loss: 0.5464 	Acc: 75.00% 	
+******** Testing ********
+Test set: 	Loss: 0.7652, 	Acc: 59.05%
+******** Training ********
+Train Epoch: 6	Loss: 0.5478 	Acc: 72.61% 	
+******** Testing ********
+Test set: 	Loss: 0.6456, 	Acc: 59.24%
+******** Training ********
+Train Epoch: 7	Loss: 0.4121 	Acc: 84.97% 	
+******** Testing ********
+Test set: 	Loss: 0.2689, 	Acc: 96.48%
+******** Training ********
+Train Epoch: 8	Loss: 0.2925 	Acc: 95.60% 	
+******** Testing ********
+Test set: 	Loss: 0.2593, 	Acc: 96.88%
+******** Training ********
+Train Epoch: 9	Loss: 0.2624 	Acc: 97.29% 	
+******** Testing ********
+Test set: 	Loss: 0.3034, 	Acc: 94.40%
+******** Training ********
+Train Epoch: 10	Loss: 0.2613 	Acc: 97.25% 	
+******** Testing ********
+Test set: 	Loss: 0.2712, 	Acc: 95.96%
+******** Training ********
+Train Epoch: 11	Loss: 0.2610 	Acc: 97.14% 	
+******** Testing ********
+Test set: 	Loss: 0.2690, 	Acc: 96.88%
+******** Training ********
+Train Epoch: 12	Loss: 0.2553 	Acc: 97.53% 	
+******** Testing ********
+Test set: 	Loss: 0.2620, 	Acc: 96.68%
+******** Training ********
+Train Epoch: 13	Loss: 0.2503 	Acc: 97.60% 	
+******** Testing ********
+Test set: 	Loss: 0.2690, 	Acc: 96.29%
+******** Training ********
+Train Epoch: 14	Loss: 0.2399 	Acc: 98.49% 	
+******** Testing ********
+Test set: 	Loss: 0.2532, 	Acc: 97.27%
+******** Training ********
+Train Epoch: 15	Loss: 0.2354 	Acc: 98.84% 	
+******** Testing ********
+Test set: 	Loss: 0.2526, 	Acc: 97.07%
+******** Training ********
+Train Epoch: 16	Loss: 0.2322 	Acc: 99.01% 	
+******** Testing ********
+Test set: 	Loss: 0.2507, 	Acc: 97.27%
+******** Training ********
+Train Epoch: 17	Loss: 0.2283 	Acc: 99.29% 	
+******** Testing ********
+Test set: 	Loss: 0.2576, 	Acc: 96.88%
+******** Training ********
+Train Epoch: 18	Loss: 0.2364 	Acc: 98.64% 	
+******** Testing ********
+Test set: 	Loss: 0.2775, 	Acc: 95.70%
+******** Training ********
+Train Epoch: 19	Loss: 0.2458 	Acc: 98.03% 	
+******** Testing ********
+Test set: 	Loss: 0.2470, 	Acc: 97.85%
+******** Training ********
+Train Epoch: 20	Loss: 0.2296 	Acc: 99.26% 	
+******** Testing ********
+Test set: 	Loss: 0.2723, 	Acc: 96.09%
+******** Training ********
+Train Epoch: 21	Loss: 0.3596 	Acc: 88.96% 	
+******** Testing ********
+Test set: 	Loss: 0.2616, 	Acc: 96.29%
+******** Training ********
+Train Epoch: 22	Loss: 0.2338 	Acc: 99.09% 	
+******** Testing ********
+Test set: 	Loss: 0.2613, 	Acc: 96.68%
+******** Training ********
+Train Epoch: 23	Loss: 0.2304 	Acc: 99.16% 	
+******** Testing ********
+Test set: 	Loss: 0.2730, 	Acc: 95.90%
+******** Training ********
+Train Epoch: 24	Loss: 0.2379 	Acc: 98.54% 	
+******** Testing ********
+Test set: 	Loss: 0.2571, 	Acc: 97.27%
+******** Training ********
+Train Epoch: 25	Loss: 0.2380 	Acc: 98.49% 	
+******** Testing ********
+Test set: 	Loss: 0.2526, 	Acc: 97.46%
+******** Training ********
+Train Epoch: 26	Loss: 0.2340 	Acc: 98.86% 	
+******** Testing ********
+Test set: 	Loss: 0.2550, 	Acc: 97.46%
+******** Training ********
+Train Epoch: 27	Loss: 0.2354 	Acc: 98.69% 	
+******** Testing ********
+Test set: 	Loss: 0.2875, 	Acc: 94.92%
+******** Training ********
+Train Epoch: 28	Loss: 0.2423 	Acc: 98.19% 	
+******** Testing ********
+Test set: 	Loss: 0.2530, 	Acc: 97.46%
+******** Training ********
+Train Epoch: 29	Loss: 0.2311 	Acc: 99.09% 	
+******** Testing ********
+Test set: 	Loss: 0.2596, 	Acc: 96.88%
+******** Training ********
+Train Epoch: 30	Loss: 0.2283 	Acc: 99.29% 	
+******** Testing ********
+Test set: 	Loss: 0.2591, 	Acc: 97.07%
+******** Training ********
+Train Epoch: 31	Loss: 0.2266 	Acc: 99.40% 	
+******** Testing ********
+Test set: 	Loss: 0.2592, 	Acc: 97.07%
+******** Training ********
+Train Epoch: 32	Loss: 0.2262 	Acc: 99.40% 	
+******** Testing ********
+Test set: 	Loss: 0.2583, 	Acc: 96.88%
+******** Training ********
+Train Epoch: 33	Loss: 0.2264 	Acc: 99.40% 	
+******** Testing ********
+Test set: 	Loss: 0.2531, 	Acc: 97.46%
+******** Training ********
+Train Epoch: 34	Loss: 0.2257 	Acc: 99.40% 	
+******** Testing ********
+Test set: 	Loss: 0.2533, 	Acc: 97.46%
+******** Training ********
+Train Epoch: 35	Loss: 0.2252 	Acc: 99.40% 	
+******** Testing ********
+Test set: 	Loss: 0.2537, 	Acc: 97.46%
+******** Training ********
+Train Epoch: 36	Loss: 0.2254 	Acc: 99.40% 	
+******** Testing ********
+Test set: 	Loss: 0.2548, 	Acc: 97.27%
+******** Training ********
+Train Epoch: 37	Loss: 0.2270 	Acc: 99.34% 	
+******** Testing ********
+Test set: 	Loss: 0.2632, 	Acc: 96.68%
+******** Training ********
+Train Epoch: 38	Loss: 0.2251 	Acc: 99.50% 	
+******** Testing ********
+Test set: 	Loss: 0.2586, 	Acc: 97.07%
+******** Training ********
+Train Epoch: 39	Loss: 0.2243 	Acc: 99.50% 	
+******** Testing ********
+Test set: 	Loss: 0.2577, 	Acc: 97.07%
+******** Training ********
+Train Epoch: 40	Loss: 0.2258 	Acc: 99.45% 	
+******** Testing ********
+Test set: 	Loss: 0.2632, 	Acc: 96.68%
+******** Training ********
+Train Epoch: 41	Loss: 0.2268 	Acc: 99.34% 	
+******** Testing ********
+Test set: 	Loss: 0.2596, 	Acc: 96.88%
+******** Training ********
+Train Epoch: 42	Loss: 0.2229 	Acc: 99.65% 	
+******** Testing ********
+Test set: 	Loss: 0.2612, 	Acc: 96.88%
+******** Training ********
+Train Epoch: 43	Loss: 0.2229 	Acc: 99.65% 	
+******** Testing ********
+Test set: 	Loss: 0.2603, 	Acc: 96.88%
+******** Training ********
+Train Epoch: 44	Loss: 0.2258 	Acc: 99.40% 	
+******** Testing ********
+Test set: 	Loss: 0.2587, 	Acc: 97.07%
+******** Training ********
+Train Epoch: 45	Loss: 0.2466 	Acc: 97.88% 	
+******** Testing ********
+Test set: 	Loss: 0.2922, 	Acc: 94.27%
+******** Training ********
+Train Epoch: 46	Loss: 0.2261 	Acc: 99.40% 	
+******** Testing ********
+Test set: 	Loss: 0.2656, 	Acc: 96.48%
+******** Training ********
+Train Epoch: 47	Loss: 0.2236 	Acc: 99.60% 	
+******** Testing ********
+Test set: 	Loss: 0.2646, 	Acc: 96.68%
+******** Training ********
+Train Epoch: 48	Loss: 0.2244 	Acc: 99.50% 	
+******** Testing ********
+Test set: 	Loss: 0.2679, 	Acc: 96.29%
+******** Training ********
+Train Epoch: 49	Loss: 0.2238 	Acc: 99.60% 	
+******** Testing ********
+Test set: 	Loss: 0.2591, 	Acc: 97.07%
+******** Training ********
+Train Epoch: 50	Loss: 0.2235 	Acc: 99.60% 	

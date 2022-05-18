@@ -1,0 +1,12 @@
+Total parameters => 147466166
+Start generate image ...
+Found 1972 images belonging to 2 classes.
+Found 492 images belonging to 2 classes.
+train dataset: {'other_malware': 1040, 'ransomware': 932}
+val dataset: {'other_malware': 259, 'ransomware': 233}
+Train => 1972 Test => 492
+Numbers of class => 9
+******** Testing ********
+Test set: 	Loss: 2.2835, 	Acc: 0.00%
+******** Training ********
+Train Epoch: 1	Loss: 1.7923 	Acc: 58.20% 	

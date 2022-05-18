@@ -1,0 +1,1 @@
+{"columns": ["Actual", "Predicted", "nPredictions"], "data": [["other_malware", "other_malware", 253.0], ["other_malware", "ransomware", 6.0], ["ransomware", "other_malware", 9.0], ["ransomware", "ransomware", 224.0]]}
