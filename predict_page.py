@@ -1,4 +1,6 @@
 import os
+from pathlib import Path
+
 from PIL import Image
 
 import streamlit as st
@@ -46,6 +48,7 @@ def show_predict_page():
             saved = createRGBImageWithSectionAndPEBest(tempfile, withPe=True)
             image = Image.open(saved)
             st.image(image, caption=f"File's representative image with section markers and 5 color encoded PE features.", width=400)
+
             pro, pre = predict_single_file(weight_dir=weight_imcec_dir, image_path=saved, cuda=False)
 
             predict = "not ransomware"
