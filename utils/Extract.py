@@ -196,6 +196,21 @@ def extract_infos(fpath):
         results.append(0)
     return results
 
+columns = [
+    "Name", "md5", "Machine", "SizeOfOptionalHeader", "Characteristics", "MajorLinkerVersion", "MinorLinkerVersion",
+    "SizeOfCode", "SizeOfInitializedData", "SizeOfUninitializedData", "AddressOfEntryPoint", "BaseOfCode",
+    "BaseOfData",
+    "ImageBase", "SectionAlignment", "FileAlignment", "MajorOperatingSystemVersion", "MinorOperatingSystemVersion",
+    "MajorImageVersion", "MinorImageVersion", "MajorSubsystemVersion", "MinorSubsystemVersion", "SizeOfImage",
+    "SizeOfHeaders", "CheckSum", "Subsystem", "DllCharacteristics", "SizeOfStackReserve", "SizeOfStackCommit",
+    "SizeOfHeapReserve", "SizeOfHeapCommit", "LoaderFlags", "NumberOfRvaAndSizes", "SectionsNb",
+    "SectionsMeanEntropy",
+    "SectionsMinEntropy", "SectionsMaxEntropy", "SectionsMeanRawsize", "SectionsMinRawsize", "SectionMaxRawsize",
+    "SectionsMeanVirtualsize", "SectionsMinVirtualsize", "SectionMaxVirtualsize", "ImportsNbDLL", "ImportsNb",
+    "ImportsNbOrdinal", "ExportNb", "ResourcesNb", "ResourcesMeanEntropy", "ResourcesMinEntropy",
+    "ResourcesMaxEntropy",
+    "ResourcesMeanSize", "ResourcesMinSize", "ResourcesMaxSize", "LoadConfigurationSize", "VersionInformationSize"]
+
 #
 # if __name__ == '__main__':
 #     output = "classification_ransomware_malware.csv"
