@@ -16,7 +16,7 @@ st.set_page_config(
 
 weight_file_id = "1ybTh2BTrrH9fc48h5hsdU4PNhhJwf8sM"
 weight_link = "https://drive.google.com/file/d/1ybTh2BTrrH9fc48h5hsdU4PNhhJwf8sM/view?usp=sharing"
-tempfolder = r"E:\Malware Image Based\drive-download-20220515T075039Z-001\temp"
+tempfolder = os.getcwd() + os.sep + "temp"
 weight_imcec_dir= r"result/exp/best.pt"
 
 
