@@ -9,10 +9,7 @@ from predict import predict_single_file
 from utils.Extract import extract_infos, columns
 from utils.preprocessing import createRGBImageWithSectionAndPEBest
 
-st.set_page_config(
-     page_title="Is this file a ransomware?",
-     layout="wide"
- )
+
 
 weight_file_id = "1ybTh2BTrrH9fc48h5hsdU4PNhhJwf8sM"
 weight_link = "https://drive.google.com/file/d/1ybTh2BTrrH9fc48h5hsdU4PNhhJwf8sM/view?usp=sharing"
