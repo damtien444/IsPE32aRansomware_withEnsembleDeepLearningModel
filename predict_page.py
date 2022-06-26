@@ -66,41 +66,46 @@ def show_predict_page():
         tempfile = save_uploadedfile(file, tempfolder)
         try:
         # if True:
-            saved = createRGBImageWithSectionAndPEBest(tempfile, withPe=True)
-
             extract = extract_infos(tempfile)
 
-            col1, col2 = st.columns(2)
+            if extract[2] > 20000:
+                st.write('## This system only support 32bit executable file.')
+            else:
+                saved = createRGBImageWithSectionAndPEBest(tempfile, withPe=True)
 
-            with col1:
 
-                st.write("### File's PE header information ###")
 
-                df = pd.DataFrame(extract).T
-                df.columns = columns
-                df = df.T
-                df.columns = ['Value']
-                ta = df.astype(str)
-                st.table(ta)
+                col1, col2 = st.columns(2)
 
-            with col2:
+                with col1:
 
-                st.write("### Preprocessing")
-                st.write("The pipeline first extract PE information from the file.\n"
-                         "Then take only 5 most impact features from that information to encode into the image.\n"
-                         "Those are 'SectionMaxRawsize', 'MajorLinkerVersion', 'DllCharacteristics', "
-                         "'SectionsMaxEntropy', 'AddressOfEntryPoint'.")
-                image = Image.open(saved)
-                st.image(image, caption=f"File's representative image with section markers and 5 color encoded PE features.", width=700)
+                    st.write("### File's PE header information ###")
 
-                pro, pre = predict_single_file(weight_dir=weight_imcec_dir, image_path=saved, cuda=False)
-                st.write("### Model's prediction")
-                predict = "**not ransomware**"
+                    df = pd.DataFrame(extract).T
+                    df.columns = columns
+                    df = df.T
+                    df.columns = ['Value']
+                    ta = df.astype(str)
+                    st.table(ta)
 
-                if pre == 1:
-                    predict = "**ransomware**"
+                with col2:
 
-                st.write(f"The file is {predict} with probability **{pro * 100}%**")
+                    st.write("### Preprocessing")
+                    st.write("The pipeline first extract PE information from the file.\n"
+                             "Then take only 5 most impact features from that information to encode into the image.\n"
+                             "Those are 'SectionMaxRawsize', 'MajorLinkerVersion', 'DllCharacteristics', "
+                             "'SectionsMaxEntropy', 'AddressOfEntryPoint'.")
+                    image = Image.open(saved)
+                    st.image(image, caption=f"File's representative image with section markers and 5 color encoded PE features.", width=700)
+
+                    pro, pre = predict_single_file(weight_dir=weight_imcec_dir, image_path=saved, cuda=False)
+                    st.write("### Model's prediction")
+                    predict = "**not ransomware**"
+
+                    if pre == 1:
+                        predict = "**ransomware**"
+
+                    st.write(f"The file is {predict} with probability **{pro * 100}%**")
         except:
             st.write("The input file is not PE32 or corrupted!")
 
