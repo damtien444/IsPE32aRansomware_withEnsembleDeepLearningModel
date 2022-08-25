@@ -49,7 +49,7 @@ def save_file_format_name(family_name, file_name, data, size, image_type, inx):
     image.putdata(data)
 
     # setup output file_name
-    dir = "Trung"
+    dir = "Trung_1"
     # image_name = os.getcwd() + os.sep + dir + os.sep + str(float(time.time())) + ".png"
     image_name = f"{os.getcwd()}\\{dir}\\{family_name}_{inx}.png"
     print(image_name)
@@ -114,7 +114,7 @@ def file_extr_declare(filename="classification_ransomware_family.csv"):
     return ff
 
 if __name__ == '__main__':
-    list_file = loop_through_srcfolder(r"E:\Malware Image Based\ransom_dataset_anhLuong\_Dataset")
+    list_file = loop_through_srcfolder(r"E:\Malware Image Based\2022-08-newly downloaded dataset\jsonGenTest")
     ff = file_extr_declare()
     for index in range(8):
         thread = Thread(target=run_multi, args=(list_file, ff))

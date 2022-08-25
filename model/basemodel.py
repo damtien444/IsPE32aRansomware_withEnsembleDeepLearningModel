@@ -104,7 +104,11 @@ class IMCEC(nn.Module):
         vgg16_fc = self.fc_vgg16(input_vgg16)
 
         output = self.fc(torch.cat((hstack_vgg16, hstack_resnet50, hstack, resnet_fc, vgg16_fc), dim=1))
+        # norm = x.norm(p=2, dim=1, keepdim=True)
+        # output = output.div(norm.expand_as(output))
+
         output = F.normalize(output, p=2, dim=1)
+        # output = F.softmax(output, dim=1)
         return output
 
 
